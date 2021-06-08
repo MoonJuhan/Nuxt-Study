@@ -15,6 +15,17 @@
 <script>
 export default {
   layout: 'test',
+  head() {
+    return {
+      title: 'Test02 Title',
+      meta: [
+        {
+          name: 'author',
+          content: 'Moon Juhan',
+        },
+      ],
+    }
+  },
 }
 </script>
 
