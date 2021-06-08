@@ -3,11 +3,10 @@
     <div>
       <Logo />
       <h1 class="title">
-        Nuxt-Study
+        This is Test02 Page
       </h1>
       <div class="links">
-        <Nuxt-link to="/test01">Test01</Nuxt-link>
-        <Nuxt-link to="/test02">Test02</Nuxt-link>
+        <Nuxt-link to="/">Home</Nuxt-link>
       </div>
     </div>
   </div>
@@ -28,16 +27,8 @@ export default {}
 }
 
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
