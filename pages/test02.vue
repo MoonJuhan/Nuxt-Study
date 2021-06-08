@@ -42,6 +42,7 @@ export default {
       mountain,
     }
   },
+  middleware: 'test',
 }
 </script>
 
