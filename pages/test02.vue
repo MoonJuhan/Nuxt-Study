@@ -43,6 +43,10 @@ export default {
     }
   },
   middleware: 'test',
+  fetch(context) {
+    console.log('--- Fetch ---')
+    console.log(context)
+  },
 }
 </script>
 
